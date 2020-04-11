@@ -23,10 +23,9 @@ let arrMax = arr => {
 // Req. 3D
 let sumEvens = arr => {
   let sum = 0;
-  let n = 0;
   for (let i of arr) {
-    if (n % 2 == 0);
-    sum = sum + n;
+    if (i % 2 == 0);
+    sum = sum += i;
   }
   return sum;
 };
